@@ -22,3 +22,8 @@ resource "snowflake_database" "demo_db" {
   name    = "DEMO_DB"
   comment = "Database for Snowflake Terraform demo"
 }
+
+resource "snowflake_database" "zafir_db" {
+  name    = "zafir_db"
+  comment = "Database for Snowflake Terraform demo"
+}
