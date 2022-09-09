@@ -83,10 +83,6 @@ resource "snowflake_database" "monkey" {
   comment = "Database for Snowflake Terraform demo"
 }
 
-resource "snowflake_database" "pepsi" {
-  name    = "pepsi"
-  comment = "Database for Snowflake Terraform demo"
-}
 
 resource "snowflake_database" "bacon" {
   name    = "bacon"
