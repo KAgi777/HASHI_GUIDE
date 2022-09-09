@@ -77,3 +77,8 @@ resource "snowflake_database" "coke" {
   name    = "coke"
   comment = "Database for Snowflake Terraform demo"
 }
+
+resource "snowflake_database" "monkey" {
+  name    = "monkey"
+  comment = "Database for Snowflake Terraform demo"
+}
